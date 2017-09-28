@@ -24,7 +24,7 @@ echo Installing libraries and packages ...
 sudo apt-get install libatlas-base-dev gfortran
 echo Building and installing OpenCV 3.0 with Python 3.4+ bindings ...
 cd ~
-git@github.com:opencv/opencv.git
+git clone git@github.com:opencv/opencv.git
 cd opencv
 git checkout master
 cd ~/opencv
