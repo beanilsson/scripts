@@ -3,7 +3,7 @@ sudo
 sudo apt-get update
 sudo apt-get upgrade
 echo Upgrading pip
-python -m pip install --upgrade pip
+pip3 install --upgrade pip
 echo Installing numpy
 sudo pip3 install numpy
 echo Installing matplotlib
