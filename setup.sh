@@ -1,5 +1,9 @@
 #For Ubuntu 16.04
 echo Begin setup ....
+echo Init vagrant box
+vagrant init bento/ubuntu-16.04
+vagrant up
+vagrant ssh
 sudo apt-get update
 sudo apt-get -y upgrade
 echo Installing git ...
