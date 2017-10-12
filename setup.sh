@@ -1,3 +1,4 @@
+#For Ubuntu 16.04
 echo Begin setup ....
 sudo apt-get update
 sudo apt-get -y upgrade
