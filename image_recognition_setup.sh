@@ -5,14 +5,12 @@ sudo apt-get update
 sudo apt-get upgrade
 echo Upgrading pip
 python -m pip install --upgrade pip
-echo Creating virtual environment
-mkvirtualenv cv
 echo Installing numpy
-pip install numpy
+sudo pip3 install numpy
 echo Installing matplotlib
-pip install matplotlib
+sudo pip3 install matplotlib
 echo Installing pillow
-pip install pillow
+sudo pip3 install pillow
 echo Installing OpenCV
 echo Installing developer tools ...
 sudo apt-get install build-essential cmake git pkg-config
@@ -23,5 +21,6 @@ sudo apt-get install libgtk2.0-dev
 echo Installing libraries and packages ...
 sudo apt-get install libatlas-base-dev gfortran
 echo Installing openCV
-sudo pip install opencv-python
 sudo pip3 install opencv-python
+echo Installing mpld3
+sudo pip3 install mpld3
