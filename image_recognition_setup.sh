@@ -1,5 +1,4 @@
 echo Starting setup
-ssh-add
 sudo
 sudo apt-get update
 sudo apt-get upgrade
