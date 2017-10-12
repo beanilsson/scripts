@@ -21,5 +21,6 @@ echo Installing libraries and packages ...
 sudo apt-get install libatlas-base-dev gfortran
 echo Installing openCV
 sudo pip3 install opencv-python
+# Visualize matplotlib in browser http://mpld3.github.io/quickstart.html
 echo Installing mpld3
 sudo pip3 install mpld3
