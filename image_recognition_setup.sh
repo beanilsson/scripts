@@ -11,6 +11,7 @@ sudo pip3 install matplotlib
 echo Installing pillow
 sudo pip3 install pillow
 echo Installing OpenCV
+pip install opencv-python
 echo Installing developer tools ...
 sudo apt-get install build-essential cmake git pkg-config -y
 echo Installing libraries and packages ...
